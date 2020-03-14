@@ -178,7 +178,6 @@ def show_solve(s):
     fig.set_size_inches(bbox.width/80,bbox.height/80)
     plt.show(block=False)
 
-
 class Application(Frame):
     def __init__(self, master=None):
         super().__init__(master)
